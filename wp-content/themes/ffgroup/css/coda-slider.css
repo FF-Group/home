@@ -5,15 +5,15 @@ body {
 	font-family: Georgia, "Times New Roman", Times, serif;
 	font-size: 12px;
 	line-height: 1.5em;
-	background-color: #0f020b;   3
-	background-image: url(../images/templatemo_body.jpg);
-	background-repeat: no-repeat;
-	background-position: top;
+	/*background-color: #0f020b;*/
+	/*background-image: url(../images/templatemo_body.jpg);*/
+	/*background-repeat: no-repeat;*/
+	/*background-position: top;*/
 
-    -moz-background-size: 100%; /* Firefox 3.6+ */
-    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
-    -o-background-size: 100%; /* Opera 9.6+ */
-    background-size: 100%; /* Современные браузеры */
+    /*-moz-background-size: 100%; *//* Firefox 3.6+ */
+    /*-webkit-background-size: 100%; *//* Safari 3.1+ пїЅ Chrome 4.0+ */
+    /*-o-background-size: 100%; *//* Opera 9.6+ */
+    /*background-size: 100%; *//* пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ */
 
 }
 
@@ -77,20 +77,20 @@ em { color: #fff; }
 }
 
 #templatemo_wrapper {
-	width: 800px;
-	margin: 0 auto;
-	background: url(../images/templatemo_body.jpg) no-repeat top center;
-   /* -moz-background-size: 200%; /* Firefox 3.6+ */
-    -webkit-background-size: 200%; /* Safari 3.1+ и Chrome 4.0+ */
-    -o-background-size: 200%; /* Opera 9.6+ */
-    background-size: 200%; /* Современные браузеры */
-    */
-
+	width: 1020px;
+	/*margin: 0 auto;*/
+	/*background: url(../images/templatemo_body.jpg) no-repeat top center;*/
+   /* -moz-background-size: 200%; *//* Firefox 3.6+ */
+    /*-webkit-background-size: 200%; *//* Safari 3.1+ пїЅ Chrome 4.0+ */
+    /*-o-background-size: 200%; *//* Opera 9.6+ */
+    /*background-size: 200%; *//* пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ */
+    /**/
+    position: absolute; right:0px;
 }
 
 #templatemo_social {
- width: 800px;
-	height: 50px;
+    width: 1020px;
+	/*height: 50px;*/
 }
 
 #templatemo_main {
@@ -146,7 +146,7 @@ em { color: #fff; }
 }
 
 .scrollContainer div.panel {
-    width: 400px;
+    width: 410px;
     height: 500px;
 	padding: 40px;
  overflow: hidden;
@@ -200,4 +200,8 @@ em { color: #fff; }
 
 .hide {
     display: none;
+}
+
+.selected{
+    background: #0f020b
 }

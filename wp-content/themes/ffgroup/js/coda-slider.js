@@ -21,7 +21,7 @@ $(document).ready(function () {
 
     // collect the scroll object, at the same time apply the hidden overflow
     // to remove the default scrollbars that will appear
-    var $scroll = $('#slider .scroll').css('overflow', 'hidden');
+    var $scroll = $('#templatemo_content .scroll').css('overflow', 'hidden');
 
     // apply our left + right buttons
 //    $scroll
@@ -39,18 +39,18 @@ $(document).ready(function () {
             .addClass('selected');
     }
 
-    $('#slider .navigation').find('a').click(selectNav);
+    $('.menu-main-menu-container #menu-main-menu').find('a').click(selectNav);
 
     // go find the navigation link that has this target and select the nav
     function trigger(data) {
-        var el = $('#slider .navigation').find('a[href$="' + data.id + '"]').get(0);
+        var el = $('.menu-main-menu-container #menu-main-menu').find('a[href$="' + data.id + '"]').get(0);
         selectNav.call(el);
     }
 
     if (window.location.hash) {
         trigger({ id : window.location.hash.substr(1) });
     } else {
-        $('ul.navigation a:first').click();
+        $('ul#menu-main-menu a:first').click();
     }
 
     // offset is used to move to *exactly* the right place, since I'm using
@@ -68,7 +68,7 @@ $(document).ready(function () {
         // can be a selector which will be relative to the target
         items: $panels,
 
-        navigation: '.navigation a',
+        navigation: '#menu-main-menu a',
 
         // selectors are NOT relative to document, i.e. make sure they're unique
         prev: 'img.left', 
@@ -92,7 +92,7 @@ $(document).ready(function () {
     // apply serialScroll to the slider - we chose this plugin because it 
     // supports// the indexed next and previous scroll along with hooking 
     // in to our navigation.
-    $('#slider').serialScroll(scrollOptions);
+    $('#menu').serialScroll(scrollOptions);
 
     // now apply localScroll to hook any other arbitrary links to trigger 
     // the effect

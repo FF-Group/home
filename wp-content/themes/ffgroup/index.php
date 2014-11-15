@@ -6,7 +6,7 @@
            $args = array(
                  'post_type' => 'page',
                  'orderby' => 'date',
-                 'order' => 'DESC'
+                 'order' => 'ASC'
            );
            $query = new WP_Query($args);
            ?>
