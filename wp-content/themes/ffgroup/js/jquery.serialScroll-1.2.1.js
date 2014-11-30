@@ -113,7 +113,15 @@
 			if( nav )
 				nav = $(nav, context).bind(event, function( e ){
 					e.data = Math.round(getItems().length / nav.length) * nav.index(this);
-					jump( e, this );
+                                        //console.log(e);
+                                        //console.log(this.parentNode);
+                                        if(this.parentNode.id == 'menu-item-26'){
+                                            return;
+                                        }
+                                        else{
+                                            jump( e, this );
+                                        }
+					
 				});
 
 			function move( e ){

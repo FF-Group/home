@@ -32,6 +32,7 @@ echo ' | ' . sprintf( __( 'Page %s', 'striped' ), max( $paged, $page ) );
 <script src="<?php echo get_template_directory_uri(); ?>/js/jquery.serialScroll-1.2.1.js" type="text/javascript" charset="utf-8"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/js/coda-slider.js" type="text/javascript" charset="utf-8"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/js/jquery.easing.1.3.js" type="text/javascript" charset="utf-8"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/js/portfolio-hider.js" type="text/javascript"></script>
 <?php wp_head(); ?>
 </head>
 <body <?php body_class( $class ); ?>>
