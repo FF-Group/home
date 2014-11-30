@@ -115,12 +115,12 @@
 					e.data = Math.round(getItems().length / nav.length) * nav.index(this);
                                         //console.log(e);
                                         //console.log(this.parentNode);
-                                        if(this.parentNode.id == 'menu-item-26'){
-                                            return;
-                                        }
-                                        else{
+//                                        if(this.parentNode.id == 'menu-item-26'){
+//                                            return;
+//                                        }
+//                                        else{
                                             jump( e, this );
-                                        }
+                                        //}
 					
 				});
 

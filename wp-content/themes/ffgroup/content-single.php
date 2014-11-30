@@ -7,4 +7,4 @@
 <p class="tags"><?php the_tags(__( 'Tagged as: ', 'striped' ),', '); ?></p>
 <p class="categories"><?php _e( 'Categorized in&#58; ', 'striped' ) . the_category(', '); ?></p>
 </footer>
-                    </div> <!-- end of contact us -->
+                  

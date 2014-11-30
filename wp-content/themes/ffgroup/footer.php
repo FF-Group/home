@@ -6,10 +6,6 @@
 		</div>
     </div> <!-- end of wrapper -->
 </div> <!-- end of slider -->
-<div class="portfolio-wrapper">
-    <div><a href="#" class="return-link">Return to site</a></div>
-    <?php echo do_shortcode('[af-portfolio]'); ?>
-</div>
 <?php wp_footer(); ?>
 </body>
 </html>

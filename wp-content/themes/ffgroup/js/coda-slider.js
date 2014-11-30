@@ -30,7 +30,6 @@ $(document).ready(function () {
 
     // handle nav selection
     function selectNav() {
-            if(!$(this).parent().hasClass('menu-item-26')){
                 $(this)
                     .parents('ul:first')
                         .find('a')
@@ -38,7 +37,7 @@ $(document).ready(function () {
                         .end()
                     .end()
                     .addClass('selected');
-            }
+           
     }
 
     $('.menu-main-menu-container #menu-main-menu').find('a').click(selectNav);
