@@ -2,7 +2,7 @@
 <div class="panel <?php post_class(); ?>" id="post-<?php the_ID(); ?>">
                     <h2><?php the_title(); ?></h2>
                      <?php 
-                    if(get_the_ID() != 24){
+                    if(get_the_ID() != 24 || get_the_ID() != 31){
                     	the_content();
                     }	
                     else{
