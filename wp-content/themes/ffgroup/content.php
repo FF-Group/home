@@ -6,7 +6,7 @@
                     	echo get_the_content();
                     }	
                     else{
-                    	echo do_shortcode("[huge_it_gallery id='1']");
+                    	echo do_shortcode("[huge_it_portfolio id='1']");
                     }
                      ?>
                     </div> <!-- end of contact us -->
