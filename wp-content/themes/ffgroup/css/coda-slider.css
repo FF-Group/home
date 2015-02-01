@@ -3,7 +3,7 @@
 	padding: 0px;
 	color: #a2979e;
 	font-family: Georgia, "Times New Roman", Times, serif;
-	font-size: 18px;
+	font-size: 16px;
 	line-height: 1.5em;
 	//background-color: #0f020b;
 	background-color: #000000;
@@ -95,7 +95,7 @@ em { color: #fff; }
 	padding: 30px 0;
 	height: 580px;
     padding-left: 110px;
-	font-size: 18px;
+	font-size: 16px;
 }
 
 #templatemo_sidebar {
@@ -219,7 +219,7 @@ em { color: #fff; }
 
 .menu-main-menu-container ul li {
     margin: 0;
-	margin-bottom: -20px;
+	margin-bottom: -40px;
 	padding: 0;
 }
 
