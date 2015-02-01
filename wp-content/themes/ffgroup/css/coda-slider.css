@@ -101,7 +101,6 @@ em { color: #fff; }
 	float: left;
 	width: 320px;
  z-index: 100;
-
 }
 
 #templatemo_content {
@@ -110,17 +109,44 @@ em { color: #fff; }
 }
 
 
- #header h1 { display: block; margin: 0 auto 80px; padding: 0; float: left; margin-top: 25px; width: 315px; height: 166px; background: url(../images/ff_logo.png); text-indent: -10000px; z-index: 100; width: 400px; height: 190px; }
+ #header h1 { display: block; margin: 0 auto 80px; padding: 0; float: left; margin-top: 25px; margin-left: -100px; width: 315px; height: 166px; background: url(../images/ff_logo.png); text-indent: -10000px; z-index: 100; width: 400px; height: 190px; }
  #header h1 a { }
 
 .menu-main-menu-container {
 	clear: both;
 	float: right;
 	border: 2px solid;
-	//border-radius: 25px;	
+	
 	border-radius: 25px 0px 0px 25px;
+    -moz-border-radius: 25px 0px 0px 25px;
+    -webkit-border-radius: 25px 0px 0px 25px;
+    -o-border-radius: 25px 0px 0px 25px;
+    -khtml-border-radius: 25px 0px 0px 25px;
+	behavior: url("../js/PIE/PIE.php");
+	background-image: url(images/templatemo_list.png);	
+	width:120px; 
 	background: #202020;
-	opacity:0.6;
+
+	/* Theoretically for IE 8 & 9 (more valid) */	
+	/* ...but not required as filter works too */
+	/* should come BEFORE filter */
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+	
+	/* This works in IE 8 & 9 too */
+	/* ... but also 5, 6, 7 */
+	filter: alpha(opacity=60);
+	
+	/* Older than Firefox 0.9 */
+	-moz-opacity:0.6;
+	
+	/* Safari 1.x (pre WebKit!) */
+	-khtml-opacity: 0.6;
+    
+	/* Modern!
+	/* Firefox 0.9+, Safari 2?, Chrome any?
+	/* Opera 9+, IE 9+ */
+	opacity: 0.6;	
+	
 	padding-top: 5px;
 	padding-left: 15px;
 }
@@ -141,8 +167,8 @@ em { color: #fff; }
 }
 
 .scroll {
-    width: 490px;
-    height: 580px;
+    width: 670px;
+    height: 665px;
     overflow: auto;
      overflow-x: hidden;
     position: relative;
@@ -153,8 +179,8 @@ em { color: #fff; }
 
 
 .scrollContainer div.panel {
-    width: 410px;
-    height: 500px;
+    width: 590px;
+    height: 665px;
     padding: 40px;
     overflow-y: scroll;
     overflow-x: hidden;
@@ -185,6 +211,9 @@ em { color: #fff; }
     list-style: none;
     margin: 0;
     padding: 0;
+	width: 120px;
+	display: inline-block;
+	
 }
 
 .menu-main-menu-container ul li {
@@ -202,14 +231,23 @@ em { color: #fff; }
     text-decoration: none;
 	color: #fff;
 	text-align: right;
+
+	   width:90px; /* or whatever width you want. */
+   max-width:90px; /* or whatever width you want. */		
 }
 
 .menu-main-menu-container ul a:hover, .nav-menu ul li.current_page_item a {
-	background: #0f020b
+	background: #0f020b;
+	   width:90px; /* or whatever width you want. */
+   max-width:90px; /* or whatever width you want. */
+   
 }
 
 .menu-main-menu-container ul a:focus {
     outline: none;
+	
+	   width:90px; /* or whatever width you want. */
+   max-width:90px; /* or whatever width you want. */	
 }
 
 
