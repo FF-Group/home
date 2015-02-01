@@ -95,6 +95,7 @@ em { color: #fff; }
 	padding: 30px 0;
 	height: 580px;
     padding-left: 110px;
+	font-size: 16px;
 }
 
 #templatemo_sidebar {
@@ -218,6 +219,7 @@ em { color: #fff; }
 
 .menu-main-menu-container ul li {
     margin: 0;
+	margin-bottom: -20px;
 	padding: 0;
 }
 
