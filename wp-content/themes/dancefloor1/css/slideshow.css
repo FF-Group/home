@@ -1,0 +1,85 @@
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,blockquote,pre,a,abbr,acronym,address,code,del,dfn,em,img,q,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,dialog,figure,footer,header,hgroup,nav,section { margin:0; padding:0; border:0; font-weight:inherit; font-style:inherit; font-size:100%; font-family:inherit; vertical-align:baseline; }
+article,aside,dialog,figure,footer,header,hgroup,nav,section { display:block; }
+body { line-height:1; }
+a img { border:none; }
+table { border-collapse:separate; border-spacing:0; }
+caption,th,td { text-align:left; font-weight:normal; }
+table,td,th { vertical-align:middle; }
+blockquote:before,blockquote:after,q:before,q:after { content:""; }
+blockquote,q { quotes:; }
+:focus { outline:0; }
+ins { text-decoration:none; }
+del { text-decoration:line-through; }
+button::-moz-focus-inner { border:0; }
+#showcase {margin: 0 auto;padding-top:30px;}
+/* Navigation arrows */
+	.showcase-arrow-previous, .showcase-arrow-next
+	{
+		position: absolute;
+		background: url('../images/arrows.png');
+		width: 33px;
+		height: 33px;
+		top: 168px;
+		cursor: pointer;
+	}
+	
+	.showcase-arrow-previous
+	{
+		left: -30px;
+	}
+	
+	.showcase-arrow-previous:hover
+	{
+		background-position: 0px -34px;
+	}
+	
+	.showcase-arrow-next
+	{
+		right: -24px;
+		background-position: -34px 0;
+	}
+	
+	.showcase-arrow-next:hover
+	{
+		background-position: -34px -34px;
+	}
+
+.showcase { position:relative;}
+/* This class is removed after the showcase is loaded */
+/* Assign the correct showcase height to prevent loading jumps in IE */
+.showcase-load { height:302px; 
+/* Same as showcase javascript option */
+overflow:hidden; }
+/* Content */
+.showcase-content { text-align:center; margin-top:11px;}
+/* Button Wrapper */
+.showcase-button-wrapper { clear:both; margin-top:10px; text-align:center; }
+.showcase-button-wrapper span { margin-right:3px; padding:2px 5px 0; cursor:pointer; font-size:12px; color:#555; }
+.showcase-button-wrapper span.active { color:#0c90ff; }
+/* Thumbnails */
+.showcase-thumbnail-container /* Used for backgrounds,no other styling!!! */ { }
+.showcase-thumbnail-wrapper { overflow:hidden; width: 950px;}
+.showcase-thumbnail-caption { position:absolute; bottom:2px; padding-left:10px; padding-bottom:5px; }
+.showcase-thumbnail-content { padding:10px; text-align:center; padding-top:25px; }
+.showcase-thumbnail-cover { background-image:url(../images/black-opacity-40.png); position:absolute; top:0; bottom:0; left:0; right:0; }
+.showcase-thumbnail:hover .showcase-thumbnail-cover { display:none; }
+.showcase-thumbnail.active .showcase-thumbnail-cover { display:none; }
+.showcase-thumbnail-wrapper-horizontal { padding:10px; }
+.showcase-thumbnail-wrapper-horizontal .showcase-thumbnail { margin-right:10px; width:116px; }
+.showcase-thumbnail-wrapper-vertical { padding:8px 10px 10px 10px; }
+.showcase-thumbnail-wrapper-vertical .showcase-thumbnail { margin-bottom:10px; }
+.showcase-thumbnail-button-backward,.showcase-thumbnail-button-forward { padding:7px; cursor:pointer; }
+.showcase-thumbnail-button-backward { padding-bottom:0; padding-right:0; }
+.showcase-thumbnail-button-backward .showcase-thumbnail-vertical { background-position:-3px -93px; margin-left:34px; }
+.showcase-thumbnail-button-backward:hover .showcase-thumbnail-vertical { background-position:-32px -93px; }
+.showcase-thumbnail-button-forward .showcase-thumbnail-vertical { background-position:0 -66px; margin-left:30px; }
+.showcase-thumbnail-button-forward:hover .showcase-thumbnail-vertical { background-position:-29px -66px; }
+.showcase-thumbnail-button-backward .showcase-thumbnail-horizontal { background-position:0 -17px; margin-top:40px; margin-bottom:40px; }
+.showcase-thumbnail-button-backward:hover .showcase-thumbnail-horizontal { background-position:-17px -17px; }
+.showcase-thumbnail-button-forward .showcase-thumbnail-horizontal { background-position:0 0; margin-top:40px; margin-bottom:40px; }
+.showcase-thumbnail-button-forward:hover .showcase-thumbnail-horizontal { background-position:-17px 0; }
+/* Hide button text */
+.showcase-thumbnail-button-forward span span,.showcase-thumbnail-button-backward span span { display:none; }
+/* Clear (used for horizontal thumbnails)
+-------------------------------------------*/
+.clear { clear:both; display:block; overflow:hidden; visibility:hidden; width:0; height:0; float:none; }

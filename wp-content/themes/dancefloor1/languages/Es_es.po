@@ -1,0 +1,327 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Gorilla Themes <support@gorillathemes.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+
+#. Text in echo
+#: dancefloor/functions.php:277
+msgid " Enabled"
+msgstr "Activado"
+
+#. Text in echo
+#: dancefloor/functions.php:863
+msgid "(at most 15)"
+msgstr "(no mas de 15)"
+
+#. Text in function
+#: dancefloor/functions.php:671
+msgid "Add Featured Article"
+msgstr "Articulo Destacado"
+
+#. Text in function
+#: dancefloor/functions.php:671
+msgid "Add New Event"
+msgstr "Nuevo Evento"
+
+#. Text in function
+#: dancefloor/functions.php:671
+msgid "Add New Featured Article"
+msgstr "Articulo Destacado"
+
+#. Text in echo
+#: dancefloor/functions.php:248
+msgid "Advertisement Banner Management"
+msgstr "Manejo de Banners"
+
+#. Text in echo
+#: dancefloor/archive.php:10
+msgid "Archive for "
+msgstr "Archivo de"
+
+#. Text in echo
+#: dancefloor/tag.php:9
+msgid "Articles Tagged: "
+msgstr "Articulos Etiquetados"
+
+#. Text in echo
+#: dancefloor/author.php:17
+msgid "Articles by "
+msgstr "Articulos por"
+
+#. Text in echo
+#: dancefloor/category.php:10
+msgid "Articles in Category: "
+msgstr "Articlulos en Categoria"
+
+#. Text in echo
+#: dancefloor/functions.php:228
+msgid "Audio/Video Player Module"
+msgstr "Audio/Video Modulo"
+
+#. Text in echo
+#: dancefloor/single.php:18
+msgid "By "
+msgstr "Por"
+
+#. Text in function
+#: dancefloor/functions.php:671
+msgid "Calendar"
+msgstr "Calendario"
+
+#. Text in echo
+#: dancefloor/single.php:18
+msgid "Comments: "
+msgstr "Commentarios:"
+
+#. Text in function
+#: dancefloor/functions.php:671
+msgid "Edit Event"
+msgstr "Editar Evento"
+
+#. Text in function
+#: dancefloor/functions.php:671
+msgid "Edit Featured Article"
+msgstr "Editar Articulo Destacado"
+
+#. Text in echo
+#: dancefloor/functions.php:271
+msgid "Enter the URL Link where this Banner Links To."
+msgstr "URL Para el Link del Banner"
+
+#. Text in echo
+#: dancefloor/functions.php:270
+msgid "Enter the URL Path for this Banner Image."
+msgstr "URL Para el Link de la imagen (ubicacion)"
+
+#. Text in echo
+#: dancefloor/functions.php:222
+msgid "Enter your the URl of your song."
+msgstr "Entre el URL de su cancion"
+
+#. Text in function
+#: dancefloor/functions.php:671
+msgid "Event"
+msgstr "Evento"
+
+#. Text in function
+#: dancefloor/functions.php:350
+#: dancefloor/functions.php:657
+msgid "Facebook"
+msgstr ""
+
+#. Text in function
+#: dancefloor/functions.php:671
+msgid "Featured"
+msgstr "Destacado"
+
+#. Text in function
+#: dancefloor/functions.php:350
+msgid "Flickr"
+msgstr ""
+
+#. Text in echo
+#: dancefloor/functions.php:194
+msgid "Flickr Widget Setup"
+msgstr ""
+
+#. Text in echo
+#: dancefloor/functions.php:273
+msgid "Google Adsense code: "
+msgstr ""
+
+#. Text in echo
+#: dancefloor/functions.php:274
+msgid "If Adsense Publisher Code is Present, it will show as default banner. "
+msgstr "Si se encuentra Adsense codigo, este se mostrara por defecto."
+
+#. Text in echo
+#: dancefloor/functions.php:269
+msgid "Image: "
+msgstr "Imagen:"
+
+#. Text in echo
+#: dancefloor/functions.php:218
+#: dancefloor/functions.php:350
+msgid "Music Player"
+msgstr "Reproductor de Musica"
+
+#. Text in function
+#: dancefloor/functions.php:350
+msgid "Music Player Widget"
+msgstr "Widget de Musica"
+
+#. Text in function
+#: dancefloor/functions.php:671
+msgid "No Featured Articles Found"
+msgstr "No se encontro"
+
+#. Text in function
+#: dancefloor/functions.php:671
+msgid "No Featured Articles Found In Trash"
+msgstr "No se encontro en la basura"
+
+#. Text in function
+#: dancefloor/functions.php:671
+msgid "No events found"
+msgstr "No se encontro"
+
+#. Text in function
+#: dancefloor/functions.php:671
+msgid "No events found in trash"
+msgstr "No se encontro en la basura"
+
+#. Text in echo
+#: dancefloor/functions.php:861
+msgid "Number of events to show:"
+msgstr "Eventos a mostrar:"
+
+#. Text in echo
+#: dancefloor/functions.php:333
+msgid "Page Setup"
+msgstr "Configuracion de pagina"
+
+#. Text in echo
+#: dancefloor/functions.php:240
+msgid "Paste code for audio/video player"
+msgstr "Pegue el codigo de video:"
+
+#. Text in function
+#: dancefloor/functions.php:350
+msgid "Photo Gallery"
+msgstr "Galeria de fotos"
+
+#. Text in echo
+#: dancefloor/functions.php:239
+msgid "Player Code"
+msgstr "Codigo"
+
+#. Text in echo
+#: dancefloor/functions.php:660
+msgid "Please enter your Facebook ID to display your widget."
+msgstr "Entre su facebook ID"
+
+#. Text in echo
+#: dancefloor/functions.php:667
+msgid "Please enter your Twitter username to display your widget."
+msgstr "Entre su nombre de usuario de Twitter"
+
+#. Text in echo
+#: dancefloor/index.php:43
+#: dancefloor/single.php:18
+#: dancefloor/video.php:41
+msgid "Posted in "
+msgstr "Publicado en "
+
+#. Text in echo
+#: dancefloor/functions.php:184
+#: dancefloor/functions.php:288
+msgid "Reset settings"
+msgstr "Borrar configuracion"
+
+#. Text in echo
+#: dancefloor/functions.php:342
+msgid "Save Changes"
+msgstr "Guardar Cambios"
+
+#. Text in echo
+#: dancefloor/functions.php:287
+msgid "Save settings"
+msgstr "Guardar Configuracion"
+
+#. Text in function
+#: dancefloor/functions.php:671
+msgid "Search Event"
+msgstr "Buscar Evento"
+
+#. Text in function
+#: dancefloor/functions.php:671
+msgid "Search Featured Article"
+msgstr "Buscar Ariculo Destacado"
+
+#. Text in function
+#: dancefloor/search.php:8
+msgid "Search Results for: %s"
+msgstr "Resultados para :%s"
+
+#. Text in echo
+#: dancefloor/functions.php:187
+msgid "Select your Style"
+msgstr "Seleccione Color"
+
+#. Text in function
+#: dancefloor/functions.php:671
+msgid "Show upcoming events in your sidebar or footer."
+msgstr "Muestra eventos en el widget."
+
+#. Text in function
+#: dancefloor/functions.php:350
+msgid "Sidebar Widgets"
+msgstr ""
+
+#. Text in echo
+#: dancefloor/functions.php:276
+msgid "Status: "
+msgstr "Estado:"
+
+#. Text in function
+#: dancefloor/functions.php:350
+msgid "The center widget area"
+msgstr ""
+
+#. Text in function
+#: dancefloor/functions.php:350
+msgid "The home calendar widget area"
+msgstr ""
+
+#. Text in function
+#: dancefloor/functions.php:350
+msgid "The primary widget area"
+msgstr ""
+
+#. Text in echo
+#: dancefloor/functions.php:186
+msgid "Theme Style"
+msgstr "Color de la plantilla"
+
+#. Text in echo
+#: dancefloor/functions.php:857
+msgid "Title:"
+msgstr "Titulo"
+
+#. Text in function
+#: dancefloor/functions.php:350
+#: dancefloor/functions.php:664
+msgid "Twitter"
+msgstr ""
+
+#. Text in function
+#: dancefloor/functions.php:671
+msgid "Upcoming Events"
+msgstr "Eventos"
+
+#. Text in function
+#: dancefloor/functions.php:671
+msgid "View Event"
+msgstr "Ver Evento"
+
+#. Text in function
+#: dancefloor/functions.php:671
+msgid "View Featured Article"
+msgstr "Ver Articulo Destacado"
+
+#. Text in function
+#: dancefloor/functions.php:350
+msgid "Widgets Home"
+msgstr ""
+
+#. Text in echo
+#: dancefloor/functions.php:180
+msgid "theme settings"
+msgstr "Configuracion de la plantilla"
+
