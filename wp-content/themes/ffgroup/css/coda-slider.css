@@ -181,7 +181,7 @@ em { color: #fff; }
 
 .scrollContainer div.panel {
     width: 590px;
-    height: 665px;
+    height: 585px;
     padding: 40px;
     overflow-y: scroll;
     overflow-x: hidden;
